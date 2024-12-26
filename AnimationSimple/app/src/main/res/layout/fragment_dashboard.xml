@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <TextView
+        android:id="@+id/text_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@android:color/holo_red_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/text_dashboard"
+        app:layout_constraintBottom_toBottomOf="@id/text_dashboard"/>
+
+
+    <org.simple.animationsimple.view.BorderLayout
+        android:id="@+id/border_layout_inner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:minWidth="20dp"
+        android:minHeight="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_dashboard"
+        android:visibility="visible"
+        tools:ignore="MissingDefaultResource">
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_dashboard2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Here are the summary results\ntext details. Here are the\nsummary results text details."-->
+<!--            android:textAlignment="center"-->
+<!--            android:textSize="50sp" />-->
+
+    </org.simple.animationsimple.view.BorderLayout>
+
+    <org.simple.animationsimple.view.BorderLayout
+        android:id="@+id/border_layout_inner2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/border_layout_inner"
+        android:visibility="visible"
+        tools:ignore="MissingDefaultResource">
+
+    </org.simple.animationsimple.view.BorderLayout>
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_light"
+
+        app:layout_constraintTop_toBottomOf="@id/border_layout_inner2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

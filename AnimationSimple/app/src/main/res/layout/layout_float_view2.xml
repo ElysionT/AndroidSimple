@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.simple.animationsimple.view.BorderLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="50dp"
+    android:minHeight="50dp"
+    android:visibility="visible"
+    tools:ignore="MissingDefaultResource">
+
+    <org.simple.animationsimple.view.BorderLayout2
+        android:id="@+id/float_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+
+</org.simple.animationsimple.view.BorderLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="funny_colors">
+        <item>@color/materialRed</item>
+        <item>@color/materialLime</item>
+        <item>@color/materialOrange</item>
+        <item>@color/materialPurple</item>
+    </array>
+
+    <!-- TODO: com.william.gradient.GradientTextView -->
+<!--    <declare-styleable name="GradientTextView">-->
+<!--        <attr name="gradient_startColor" format="reference|color" />-->
+<!--        <attr name="gradient_endColor" format="reference|color" />-->
+<!--        <attr name="gradient_direction" format="enum">-->
+<!--            <enum name="leftToRight" value="1" />-->
+<!--            <enum name="topToBottom" value="2" />-->
+<!--        </attr>-->
+<!--        <attr name="gradient_animate" format="boolean" />-->
+<!--        <attr name="gradient_speed" format="enum">-->
+<!--            <enum name="slow" value="20" />-->
+<!--            <enum name="normal" value="10" />-->
+<!--            <enum name="fast" value="5" />-->
+<!--        </attr>-->
+<!--    </declare-styleable>-->
+
+    <!-- com.flyjingfish.gradienttextviewlib.GradientTextView -->
+    <declare-styleable name="GradientTextView">
+        <attr name="gradient_startColor" format="reference|color" />
+        <attr name="gradient_centerColor" format="reference|color" />
+        <attr name="gradient_endColor" format="reference|color" />
+        <attr name="gradient_angle" format="float" />
+        <attr name="gradient_rtl_angle" format="boolean" />
+
+        <attr name="gradient_stroke_startColor" format="reference|color" />
+        <attr name="gradient_stroke_centerColor" format="reference|color" />
+        <attr name="gradient_stroke_endColor" format="reference|color" />
+        <attr name="gradient_stroke_angle" format="float" />
+        <attr name="gradient_stroke_rtl_angle" format="boolean" />
+
+        <attr name="gradient_stroke_strokeWidth" format="dimension" />
+        <attr name="gradient_stroke_textColor" format="reference|color" />
+        <attr name="gradient_stroke_join" format="enum">
+            <enum name="miter" value="0" />
+            <enum name="round" value="1" />
+            <enum name="bevel" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PerfectTextView">
+        <attr name="perfect_drawableStart_width" format="dimension" />
+        <attr name="perfect_drawableStart_height" format="dimension" />
+        <attr name="perfect_drawableStart_padding" format="dimension" />
+
+        <attr name="perfect_drawableTop_width" format="dimension" />
+        <attr name="perfect_drawableTop_height" format="dimension" />
+        <attr name="perfect_drawableTop_padding" format="dimension" />
+
+        <attr name="perfect_drawableEnd_width" format="dimension" />
+        <attr name="perfect_drawableEnd_height" format="dimension" />
+        <attr name="perfect_drawableEnd_padding" format="dimension" />
+
+        <attr name="perfect_drawableBottom_width" format="dimension" />
+        <attr name="perfect_drawableBottom_height" format="dimension" />
+        <attr name="perfect_drawableBottom_padding" format="dimension" />
+
+        <attr name="perfect_drawableLeft_width" format="dimension" />
+        <attr name="perfect_drawableLeft_height" format="dimension" />
+        <attr name="perfect_drawableLeft_padding" format="dimension" />
+
+        <attr name="perfect_drawableRight_width" format="dimension" />
+        <attr name="perfect_drawableRight_height" format="dimension" />
+        <attr name="perfect_drawableRight_padding" format="dimension" />
+
+        <attr name="perfect_selected_text" format="string" />
+        <attr name="perfect_selected_hint" format="string" />
+
+        <attr name="perfect_text_background" format="reference|color" />
+        <attr name="perfect_text_background_scope" format="enum">
+            <enum name="wrappedText" value="0" />
+            <enum name="fitDrawablePadding" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+</resources>

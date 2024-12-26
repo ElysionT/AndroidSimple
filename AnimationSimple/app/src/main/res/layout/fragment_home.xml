@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+<!--    <com.flyjingfish.gradienttextviewlib.GradientTextView-->
+<!--        android:id="@+id/gradientTextView1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="Here are the summary results\ntext details. Here are the\nsummary results text details."-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="50sp"-->
+<!--        app:gradient_angle="270"-->
+<!--        app:gradient_endColor="@color/purple_200"-->
+<!--        app:gradient_startColor="@color/teal_200"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/text_home" />-->
+
+
+    <com.flyjingfish.gradienttextviewlib.GradientTextView
+        android:id="@+id/gradientTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Here are the summary results\ntext details. Here are the\nsummary results text details."
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:gradient_angle="270"
+        app:gradient_endColor="@android:color/holo_blue_light"
+        app:gradient_centerColor="@android:color/holo_orange_light"
+        app:gradient_startColor="@android:color/holo_red_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_home" />
+
+<!--    <com.flyjingfish.gradienttextviewlib.GradientTextView-->
+<!--        android:id="@+id/gradientTextView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="Hello World!"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="30sp"-->
+<!--        app:gradient_angle="270"-->
+<!--        app:gradient_endColor="@color/purple_200"-->
+<!--        app:gradient_startColor="@color/teal_200"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/gradientTextView1" />-->
+
+<!--    <com.flyjingfish.gradienttextviewlib.GradientTextView-->
+<!--        android:id="@+id/gradientTextView3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="Hello World!"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="30sp"-->
+<!--        app:gradient_angle="0"-->
+<!--        app:gradient_endColor="@color/white"-->
+<!--        app:gradient_startColor="@color/teal_200"-->
+<!--        app:gradient_stroke_angle="0"-->
+<!--        app:gradient_stroke_join="bevel"-->
+<!--        app:gradient_stroke_strokeWidth="6dp"-->
+<!--        app:gradient_stroke_textColor="@color/purple_700"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/gradientTextView2" />-->
+
+<!--    <com.flyjingfish.gradienttextviewlib.GradientTextView-->
+<!--        android:id="@+id/gradientTextView4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="Hello World!"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="30sp"-->
+<!--        app:gradient_angle="270"-->
+<!--        app:gradient_endColor="@color/press_end"-->
+<!--        app:gradient_startColor="@color/press_start"-->
+<!--        app:gradient_stroke_angle="0"-->
+<!--        app:gradient_stroke_endColor="@color/press_end2"-->
+<!--        app:gradient_stroke_startColor="@color/press_start2"-->
+<!--        app:gradient_stroke_strokeWidth="6dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/gradientTextView3" />-->
+
+<!--    <com.mursaat.extendedtextview.AnimatedGradientTextView-->
+<!--        android:id="@+id/animatedGradientTextView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Here are the summary results\ntext details. Here are the\nsummary results text details."-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textSize="95sp"-->
+<!--        app:angle="45"-->
+<!--        app:colors="@array/funny_colors"-->
+<!--        app:maxFPS="30"-->
+<!--        app:simultaneousColors="4"-->
+<!--        app:speed="1000"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/gradientTextView1" />-->
+
+    <com.william.gradient.GradientTextView
+        android:id="@+id/gradientTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Here are the summary results\ntext details. Here are the\nsummary results text details."
+        android:textSize="50sp"
+        app:gradient_animate="false"
+        app:gradient_direction="leftToRight"
+        app:gradient_speed="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:gradient_startColor="#FF3678FF"
+        app:gradient_endColor="#FFCA37FF"
+        app:layout_constraintTop_toBottomOf="@id/gradientTextView1" />
+
+    <!-- TODO: GradientTextView conflicts with TextView.setTextIsSelectable(true) -->
+    <org.simple.animationsimple.view.GradientTextView
+        android:id="@+id/gradientTextViewCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Here are the summary results\ntext details. Here are the\nsummary results text details."
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        android:textSize="50sp"
+        app:gradient_angle="270"
+        app:gradient_startColor="#FF3678FF"
+        app:gradient_endColor="#FFCA37FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gradientTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
